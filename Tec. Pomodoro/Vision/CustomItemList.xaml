@@ -1,0 +1,62 @@
+﻿<UserControl
+    x:Class="Tec.Pomodoro.Vision.CustomItemList"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Tec.Pomodoro.Vision"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Height="70">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ms-appx:///Vision/DictionaryTomato.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+            <Storyboard x:Name="TaskComplete">
+                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.GlobalOffsetZ)" Storyboard.TargetName="IconTask">
+                    <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                    <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="120"/>
+                    <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                </DoubleAnimationUsingKeyFrames>
+                <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FontIcon.Glyph)" Storyboard.TargetName="IconTask">
+                    <DiscreteObjectKeyFrame KeyTime="0" Value="&#xECCA;"/>
+                    <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="&#xE930;"/>
+                </ObjectAnimationUsingKeyFrames>
+            </Storyboard>
+            <Storyboard x:Name="TaskIncomplete">
+                <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Projection).(PlaneProjection.GlobalOffsetZ)" Storyboard.TargetName="IconTask">
+                    <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                    <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="120"/>
+                    <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                </DoubleAnimationUsingKeyFrames>
+                <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FontIcon.Glyph)" Storyboard.TargetName="IconTask">
+                    <DiscreteObjectKeyFrame KeyTime="0" Value="&#xE930;"/>
+                    <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="&#xECCA;"/>
+                </ObjectAnimationUsingKeyFrames>
+            </Storyboard>
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+    <Grid HorizontalAlignment="Stretch" Background="{StaticResource BackgroundColor2}" Tapped="Grid_Tapped">
+
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <!--Complete : E930-->
+        <Grid Name="IconBackground">
+            <FontIcon Name="IconTask" FontSize="30" Margin="15" Foreground="White" Glyph="&#xECCA;">
+                <FontIcon.Projection>
+                    <PlaneProjection/>
+                </FontIcon.Projection>
+            </FontIcon>
+        </Grid>
+        <TextBlock Name="TxtTask" Text="" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0" FontSize="20" Foreground="White" TextWrapping="Wrap" TextAlignment="Center" Grid.Column="1"/>
+
+    </Grid>
+
+
+</UserControl>

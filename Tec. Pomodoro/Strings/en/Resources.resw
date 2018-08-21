@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ConfigTomatoTxt1.Text" xml:space="preserve">
+    <value>Duration in minutes</value>
+  </data>
+  <data name="ConfigTomatoTxt2.Text" xml:space="preserve">
+    <value>Concentration</value>
+  </data>
+  <data name="ConfigTomatoTxt3.Text" xml:space="preserve">
+    <value>Distraction</value>
+  </data>
+  <data name="ConfigTomatoTxt4.Text" xml:space="preserve">
+    <value>Repeats</value>
+  </data>
+  <data name="DistractionsTxt1.Text" xml:space="preserve">
+    <value>Remove or move away from any distractions nearby.</value>
+  </data>
+  <data name="Obs1.Text" xml:space="preserve">
+    <value>Set the best time limits for you. (Concentration, Distraction)</value>
+  </data>
+  <data name="Obs2.Text" xml:space="preserve">
+    <value>Make the pomodoro with NO interruptions. Interruptions only in emergencies.</value>
+  </data>
+  <data name="Obs3.Text" xml:space="preserve">
+    <value>The method may not work with activities that require more creativity.</value>
+  </data>
+  <data name="Obs4.Text" xml:space="preserve">
+    <value>Efficient method to avoid procrastination.</value>
+  </data>
+  <data name="SilencePhoneTxt1.Text" xml:space="preserve">
+    <value>Turn off the distractions</value>
+  </data>
+  <data name="SilencePhoneTxt2.Text" xml:space="preserve">
+    <value>Unplug the internet</value>
+  </data>
+  <data name="SilencePhoneTxt3.Text" xml:space="preserve">
+    <value>Continue Online</value>
+  </data>
+  <data name="SilencePhoneTxt4.Text" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="StopNoticeTxt1.Text" xml:space="preserve">
+    <value>The pomodoro is over!</value>
+  </data>
+  <data name="StopNoticeTxt2.Text" xml:space="preserve">
+    <value>Repeat</value>
+  </data>
+  <data name="StopNoticeTxt3.Text" xml:space="preserve">
+    <value>Leave</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TaskButton.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="TaskTitle1.Text" xml:space="preserve">
+    <value>Add Tasks</value>
+  </data>
+  <data name="TaskTxtBox.PlaceholderText" xml:space="preserve">
+    <value>Enter the task here</value>
+  </data>
+  <data name="Tec1.Text" xml:space="preserve">
+    <value>Make a list of the tasks that are pending.</value>
+  </data>
+  <data name="Tec2.Text" xml:space="preserve">
+    <value>Schedule the application for certain minutes (25 min recommended).</value>
+  </data>
+  <data name="Tec3.Text" xml:space="preserve">
+    <value>Choose one of the tasks and work on it without interruption.</value>
+  </data>
+  <data name="Tec4.Text" xml:space="preserve">
+    <value>When the play application, take a break.</value>
+  </data>
+  <data name="Tec5.Text" xml:space="preserve">
+    <value>Delete the task from your list after you finish it.</value>
+  </data>
+  <data name="Tec6.Text" xml:space="preserve">
+    <value>Return the work after the break for another "pomodoro".</value>
+  </data>
+  <data name="Tec7.Text" xml:space="preserve">
+    <value>Every four "pomodoros", take a longer break: 30 minutes until you return to work.</value>
+  </data>
+  <data name="Title1.Text" xml:space="preserve">
+    <value>The technique is:</value>
+  </data>
+  <data name="Title2.Text" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="ToastError0.Text" xml:space="preserve">
+    <value>The Pomodoro was stopped!</value>
+  </data>
+  <data name="ToastError1.Text" xml:space="preserve">
+    <value>Check your settings and enable background execution of the application.</value>
+  </data>
+  <data name="ToastErrorImage.Text" xml:space="preserve">
+    <value>tomatoError.png</value>
+  </data>
+  <data name="ToastFinish0.Text" xml:space="preserve">
+    <value>The Pomodoro was Done!</value>
+  </data>
+  <data name="ToastFinish1.Text" xml:space="preserve">
+    <value>Congratulations! :P You finished the pomodoro!</value>
+  </data>
+  <data name="ToastFinishImage.Text" xml:space="preserve">
+    <value>tomatoGreen.png</value>
+  </data>
+  <data name="ToastFocus0.Text" xml:space="preserve">
+    <value>Go Back To Work!</value>
+  </data>
+  <data name="ToastFocus1.Text" xml:space="preserve">
+    <value>Time to Focus!</value>
+  </data>
+  <data name="ToastFocusImage.Text" xml:space="preserve">
+    <value>tomatoClock.png</value>
+  </data>
+  <data name="ToastFree0.Text" xml:space="preserve">
+    <value>Ehhh! Rest! :P</value>
+  </data>
+  <data name="ToastFree1.Text" xml:space="preserve">
+    <value>Free Time!</value>
+  </data>
+  <data name="ToastFreeImage.Text" xml:space="preserve">
+    <value>tomatoGreenClock.png</value>
+  </data>
+  <data name="ToastInterrupt0.Text" xml:space="preserve">
+    <value>The Pomodoro Has Been Interrupted!</value>
+  </data>
+  <data name="ToastInterrupt1.Text" xml:space="preserve">
+    <value>Ahhh, you interrupted the pomodoro! : '(</value>
+  </data>
+  <data name="ToastInterruptImage.Text" xml:space="preserve">
+    <value>tomatoError.png</value>
+  </data>
+  <data name="TomatoTxt1.Text" xml:space="preserve">
+    <value>Tasks</value>
+  </data>
+  <data name="TomatoTxt2.Text" xml:space="preserve">
+    <value>Focus on Work!</value>
+  </data>
+  <data name="WarningTxt1.Text" xml:space="preserve">
+    <value>The Internet is a place of MANY distractions. Are you SURE to continue?</value>
+  </data>
+  <data name="WarningTxt2.Text" xml:space="preserve">
+    <value>I have</value>
+  </data>
+  <data name="WarningTxt3.Text" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Welcome.Text" xml:space="preserve">
+    <value>Pomodoro technique!</value>
+  </data>
+</root>

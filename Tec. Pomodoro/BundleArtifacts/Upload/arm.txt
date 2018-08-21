@@ -1,0 +1,7 @@
+MainPackage=C:\Users\Marlo\Mega\Programation\C#\Apps Projects\Windows 10\Tec. Pomodoro\Tec. Pomodoro\bin\ARM\Release\Upload\Tec. Pomodoro_3.0.13.0_ARM.appx
+SymbolPackage=C:\Users\Marlo\Mega\Programation\C#\Apps Projects\Windows 10\Tec. Pomodoro\Tec. Pomodoro\bin\ARM\Release\Upload\Tec. Pomodoro_3.0.13.0\Tec. Pomodoro_3.0.13.0_ARM.appxsym
+ResourcePack=C:\Users\Marlo\Mega\Programation\C#\Apps Projects\Windows 10\Tec. Pomodoro\Tec. Pomodoro\_language-pt.appx
+ResourcePack=C:\Users\Marlo\Mega\Programation\C#\Apps Projects\Windows 10\Tec. Pomodoro\Tec. Pomodoro\_scale-100.appx
+ResourcePack=C:\Users\Marlo\Mega\Programation\C#\Apps Projects\Windows 10\Tec. Pomodoro\Tec. Pomodoro\_scale-125.appx
+ResourcePack=C:\Users\Marlo\Mega\Programation\C#\Apps Projects\Windows 10\Tec. Pomodoro\Tec. Pomodoro\_scale-150.appx
+ResourcePack=C:\Users\Marlo\Mega\Programation\C#\Apps Projects\Windows 10\Tec. Pomodoro\Tec. Pomodoro\_scale-400.appx

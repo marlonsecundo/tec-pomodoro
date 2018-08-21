@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Marlo\Mega\Programation\C#\Apps Projects\Windows 10\Tec. Pomodoro\Tec. Pomodoro\bin\x64\Release\Tec. Pomodoro_3.0.13.0_x64.appx
+SymbolPackage=C:\Users\Marlo\Mega\Programation\C#\Apps Projects\Windows 10\Tec. Pomodoro\Tec. Pomodoro\AppPackages\Tec. Pomodoro_3.0.13.0_Test\Tec. Pomodoro_3.0.13.0_x64.appxsym
